@@ -31,5 +31,4 @@ const Header = ({ src, name, signOut }) => {
     </Box>
   );
 };
-
 export default Header;
