@@ -10,8 +10,8 @@ import {
   setDoc,
   getDoc,
 } from "./firebase";
-import TaskForm from "./TaskForm";
-import TaskList from "./TaskList";
+import TaskForm from "./components/TaskForm";
+import TaskList from "./components/TaskList";
 import {
   Button,
   Container,
@@ -20,7 +20,7 @@ import {
   Card,
   CardContent,
 } from "@mui/material";
-import Header from './Header'
+import Header from './components/Header'
 
 const App = () => {
   const [user, setUser] = useState(null);
